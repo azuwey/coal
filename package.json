@@ -1,0 +1,41 @@
+{
+  "name": "lawrencium",
+  "displayName": "Lawrencium",
+  "version": "0.0.24",
+  "description": "lawrencium is a lightweight realtime storage layer.",
+  "main": "dist/index.js",
+  "types": "declarations/index.d.ts",
+  "repository": "https://github.com/azuwey/coal.git",
+  "author": "Azuwey",
+  "license": "BSD-3-Clause",
+  "private": false,
+  "keywords": [
+    "typescript",
+    "observer",
+    "annotation",
+    "lawrencium",
+    "event",
+    "manager",
+    "database",
+    "noSql",
+    "no-Sql",
+    "realtime",
+    "real-time",
+    "real",
+    "time"
+  ],
+  "homepage": "https://github.com/azuwey/lawrencium",
+  "bugs": {
+    "url": "https://github.com/azuwey/lawrencium/issues"
+  },
+  "scripts": {
+    "prepublish": "tsc"
+  },
+  "devDependencies": {
+    "reflect-metadata": "^0.1.12",
+    "typescript": "^2.7.1"
+  },
+  "dependencies": {
+    "carnotite": "^0.0.14"
+  }
+}
